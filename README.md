@@ -5,6 +5,16 @@ La temática es un desierto con tuberías al estilo de los plataformas clásicos
 
 ![Vista previa del escenario](Assets/Art/vista_previa_x3.png)
 
+## Archivos de la entrega
+
+| Pide la actividad | Archivo |
+|---|---|
+| Escenario completo en PNG a resolución original (512 x 288) | [`entrega/vista_entrega.png`](entrega/vista_entrega.png) |
+| Archivo editable con las capas organizadas y nombradas | [`entrega/escenario_desierto_tuberias_capas.psd`](entrega/escenario_desierto_tuberias_capas.psd) |
+| Tileset y elementos decorativos en un PNG aparte con transparencia | [`Assets/Art/tileset_y_decoraciones.png`](Assets/Art/tileset_y_decoraciones.png) |
+
+El resto de archivos son el proyecto de Unity donde está montado el escenario.
+
 ## Datos del escenario
 
 - Resolución original: 512 x 288 px (16:9)
@@ -59,6 +69,9 @@ También están `tileset_y_decoraciones.png` (tiles y decoraciones con fondo tra
 ## Estructura del proyecto
 
 ```
+entrega/
+├── vista_entrega.png                        Escenario completo (512 x 288)
+└── escenario_desierto_tuberias_capas.psd    Archivo editable con las 7 capas
 Assets/
 ├── Art/        Capas del escenario, tileset y vista previa
 ├── Scenes/     SampleScene (escena con el escenario montado)
